@@ -30,7 +30,7 @@ function print_ic_cl {
   echo "For an SI=$SI, IC=$IC and CL=$CL"
 }
 
-# No paramters were passed
+# No parameters were passed
 [ "$#" -eq 0 ] && \
   read -p "Enter the SI Code: " SI && \
   print_ic_cl
